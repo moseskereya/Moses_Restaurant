@@ -1,0 +1,108 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.btn{
+    padding: 7px 14px;
+    text-decoration: none;
+    background-color:#ff1643;
+    color: #ffffff;
+    border:none;
+}
+
+.main-category{
+    background-color: #808080;
+    display: flex;
+   justify-content: space-around;
+   align-content:center;
+   padding : 15px ;
+   margin:10px 0;
+}
+.jumbotron{
+    margin: 15px 0;
+    background-color:#808080;
+}
+.jumbotron p{
+    padding: 4px;
+    font-size: 16px;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 10px auto;
+    background-color: #ff1643;
+}
+.title1 h3{
+    color:#ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight: 100;
+    padding : 10px;
+    
+
+}
+.title2{
+    display: flex;
+    padding: 10px;
+    color:#ffffff;
+}
+
+@media screen and (max-width: 500px){
+    .head{
+        flex-direction: column;
+    }
+}
+.price{
+    color:#ff1643;
+    padding: 10px;
+    font-style:italic;
+    font-weight:bold;
+}
+.md-w{
+    padding: 10px 0;
+    margin: 0 15px;
+    background-color:#808080;
+}
+.md-w p{
+    color: azure;
+}
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff1643;
+    color: #efefef;
+}
